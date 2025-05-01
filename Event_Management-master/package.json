@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "multer": "^1.4.5-lts.2",
+    "nodemailer": "^6.10.1"
+  },
+  "name": "event_management-master",
+  "version": "1.0.0",
+  "description": "This Event Management System project presents the development of a web application utilizing the MERN (MongoDB, Express.js, React.js, Node.js) stack for event registration and management tailored for college clubs. The application offers a seamless user experience for club organizers to create, manage, and publish event details such as date, time, location, and additional pertinent information. Students can browse through a comprehensive list of events, access event specifics, and conveniently register for events of interest. Leveraging the MERN stack, this platform ensures scalability, flexibility, and efficiency in managing club events, catering to the dynamic needs of college club communities. Key features include a user- friendly interface, event creation and management tools, event browsing capabilities, and seamless registration functionality, enhancing the overall experience for both organizers and participants.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

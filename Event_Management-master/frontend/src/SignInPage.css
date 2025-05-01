@@ -1,0 +1,48 @@
+.signin-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background: linear-gradient(to bottom right, #faf4ff, #f2e9fb);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(100, 0, 200, 0.2);
+  color: #2e003e;
+}
+
+.signin-tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.signin-tabs button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #5e2a84;
+  border-bottom: 2px solid transparent;
+}
+
+.signin-tabs .active {
+  border-color: #a833c1;
+}
+
+.signin-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.signin-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #a833c1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}

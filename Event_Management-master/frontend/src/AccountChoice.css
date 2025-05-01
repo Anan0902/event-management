@@ -1,0 +1,73 @@
+.account-choice-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  color: #f9f7fa;
+}
+
+.account-choice-box {
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 50px;
+  border-radius: 25px;
+  text-align: center;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(201, 112, 236, 0.954);
+  max-width: 600px;
+}
+
+.account-choice-heading {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #d575f2;
+}
+
+.account-choice-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.account-button {
+  padding: 14px 36px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #f3aef3, #dea1f8);
+  color: rgb(247, 246, 248);
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(211, 143, 255, 0.3);
+}
+
+.account-button:hover {
+  background: linear-gradient(to right, #e3a6fd, #faabfa);
+  transform: scale(1.05);
+}
+/* Wrap each label-input pair in a flex row */
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* Label on the left, fixed width */
+.form-row label {
+  flex: 0 0 150px;
+  text-align: left;
+  color: #6a0080;
+}
+
+/* Input on the right, full width */
+.form-row input[type="text"],
+.form-row input[type="date"],
+.form-row input[type="file"],
+.form-row textarea {
+  flex: 1;
+}

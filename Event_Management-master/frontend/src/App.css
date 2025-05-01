@@ -1,0 +1,75 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #fdf9ff, #ebe2f5); /* light violet radiant */
+  height: 100%;
+  color: #2e003e; /* elegant deep violet text */
+}
+
+.app-container {
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px); /* Adjust if Navbar height changes */
+}
+
+.login-card {
+  background-color: #ffffff;
+  color: #2e003e;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(150, 90, 200, 0.2); /* soft violet glow */
+  width: 350px;
+  text-align: center;
+}
+
+.login-card h1 {
+  color: #6c3fa4; /* elegant violet */
+  margin-bottom: 25px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #d9c6f0;
+  border-radius: 8px;
+  background-color: #f6f0fa;
+  color: #2e003e;
+  font-size: 14px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #9e79d9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #865bc5;
+}
+
+.signin-link {
+  display: block;
+  margin-top: 15px;
+  color: #7c4db3;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.signin-link:hover {
+  text-decoration: underline;
+}

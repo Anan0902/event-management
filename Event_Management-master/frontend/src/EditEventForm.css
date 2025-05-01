@@ -1,0 +1,64 @@
+.edit-event-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(to bottom right, #fbeaff, #f4e1ff);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(153, 102, 255, 0.15);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .edit-event-container h2 {
+    text-align: center;
+    color: #8a2be2;
+    margin-bottom: 25px;
+  }
+  
+  .edit-event-form input,
+  .edit-event-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #dcb5ff;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: #fff0fb;
+    transition: border 0.3s ease;
+  }
+  
+  .edit-event-form input:focus,
+  .edit-event-form textarea:focus {
+    border-color: #c084fc;
+    outline: none;
+    background-color: #fdf7ff;
+  }
+  
+  .save-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #c084fc, #f472b6);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+  }
+  
+  .save-btn:hover {
+    background: linear-gradient(to right, #a855f7, #ec4899);
+    transform: scale(1.03);
+  }
+  
+  .success-toast {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d1fae5;
+    color: #065f46;
+    border: 1px solid #34d399;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  

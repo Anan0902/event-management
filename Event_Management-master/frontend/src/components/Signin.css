@@ -1,0 +1,38 @@
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #12081d; /* deeper violet-black for sleek feel */
+  padding: 20px 50px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 2px 12px rgba(100, 50, 150, 0.2); /* soft violet glow */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: #f7a1ff; /* soft pink */
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05); /* gentle elegance */
+}
+
+.navbar-links a {
+  margin-left: 30px;
+  color: #f7a1ff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #ffffff;
+  transform: translateY(-2px);
+}

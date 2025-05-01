@@ -1,0 +1,17 @@
+.features-section li {
+  background: linear-gradient(to right, #f8bbd0, #e1bee7); /* light pink to light violet */
+  padding: 0.9rem 1.4rem;
+  margin: 0.6rem 0;
+  border-radius: 12px;
+  color: #6a1b9a;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(240, 98, 146, 0.2);
+  transition: all 0.4s ease-in-out;
+}
+
+.features-section li:hover {
+  background: linear-gradient(to right, #f48fb1, #ce93d8); /* deeper pink-violet on hover */
+  transform: scale(1.04);
+  box-shadow: 0 6px 18px rgba(240, 98, 146, 0.3);
+}
